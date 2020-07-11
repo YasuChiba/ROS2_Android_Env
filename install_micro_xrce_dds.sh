@@ -42,7 +42,7 @@ mkdir -p ${MICRO_XRCE_WS}/src
 
 
 cd $MICRO_XRCE_WS
-wget https://github.com/YasuChiba/Micro-XRCE-DDS-Agent/blob/android-v1.1.0/micro_xrce_dds_agent.repos
+wget https://raw.githubusercontent.com/YasuChiba/Micro-XRCE-DDS-Agent/android-v1.1.0/micro_xrce_dds_agent.repos
 
 vcs import $MICRO_XRCE_WS/src < micro_xrce_dds_agent.repos
 
