@@ -6,7 +6,8 @@ SCRIPT_DIR=$(cd $(dirname $0); pwd)
 apt -y update 
 apt -y upgrade
 
-apt install -y git vim cmake build-essential python3 python3-pip openjdk-8-jdk unzip wget gradle
+apt install -y git vim cmake build-essential python3 python3-pip openjdk-8-jdk
+apt install -y unzip wget gradle
 
 cd /usr/bin
 ln -s /usr/bin/python3.6 ./python 
