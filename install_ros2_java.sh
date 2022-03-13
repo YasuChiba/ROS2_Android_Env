@@ -37,7 +37,7 @@ mkdir -p ${ROS2_ANDROID_WS}/src
 
 cd $ROS2_ANDROID_WS
 #wget https://raw.githubusercontent.com/esteve/ros2_java/master/ros2_java_android.repos
-wget https://raw.githubusercontent.com/YasuChiba/ros2_java/master/ros2_java_android.repos
+wget https://raw.githubusercontent.com/YasuChiba/ros2_java/working/ros2_java_android.repos
 vcs import $ROS2_ANDROID_WS/src < ros2_java_android.repos
 
 #
